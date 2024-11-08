@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\sur\OneDrive - Education Vaud\Documents\GitHub\Josh-su\SMBMediaHub\src\App.xaml
-3373944001
+3-1339709996
 
-9929501996
+13-1483559046
 203-1685472146
-AddSMBConnectionWindow.xaml;MainWindow.xaml;SettingsWindow.xaml;
+Views\AddSourceWindow.xaml;Views\MainWindow.xaml;Views\SettingsWindow.xaml;
 
 True
 

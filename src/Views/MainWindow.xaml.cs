@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
+using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
@@ -15,25 +17,9 @@ namespace SMBMediaHub
     /// </summary>
     public partial class MainWindow : Window
     {
-        // Initialize Files as an ObservableCollection
-        private ObservableCollection<string> Files = [];
-
         public MainWindow()
         {
             InitializeComponent();
-            FileListView.ItemsSource = Files; // Bind the ListView to the Files ObservableCollection
-            LoadSMBFiles(); // Load the SMB files when the window is initialized
-        }
-        private void LoadSMBFiles()
-        {
-            // Example method to load files from an SMB source, replace with your actual logic
-            var files = SMBFileLoader.LoadFilesFromSMB("serverIp", "username", "password", "shareName");
-
-            Files.Clear();
-            foreach (var file in files)
-            {
-                Files.Add(file);
-            }
         }
 
         private void SearchBar_GotFocus(object sender, RoutedEventArgs e)
@@ -68,26 +54,30 @@ namespace SMBMediaHub
 
         private void PlayButton_Click(object sender, RoutedEventArgs e)
         {
-            if (FileListView.SelectedItem != null)
-            {
-                string selectedFile = FileListView.SelectedItem.ToString();
-                PlayVideo(selectedFile);
-            }
+            
         }
 
-        private void PlayVideo(string fileName)
+        private void GitHubButton_Click(object sender, RoutedEventArgs e)
         {
-            // Logic to play video using VLC or MediaElement
+            // Open the GitHub page in the default browser
+            string url = "https://github.com/Josh-su/SMBMediaHub";
+            Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
         }
 
         private void SettingsButton_Click(object sender, RoutedEventArgs e)
         {
-            SettingsWindow settingsWindow = new(Files);
-            if (settingsWindow.ShowDialog() == true)
+            // Create an instance of the SettingsWindow
+            SettingsWindow settingsWindow = new()
             {
-                // Refresh the list of sources after saving settings
-                // For example, update the UI to reflect changes made in the Settings window.
-            }
+                // Set the owner of the SettingsWindow to the current MainWindow, so it opens centered
+                Owner = this,
+
+                // Set the window to open in the center of the MainWindow
+                WindowStartupLocation = WindowStartupLocation.CenterOwner
+            };
+
+            // Open the settings window as a modal dialog
+            settingsWindow.ShowDialog();
         }
     }
 }

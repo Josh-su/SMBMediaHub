@@ -9,3 +9,6 @@ SMB Media Hub is a desktop application built in C# that allows users to browse a
 - Search Functionality: Search for videos or other media files using a dynamic search bar.
 - Media Playback: Select and play media files (e.g., videos) directly from the SMB server.
 - SMB Protocol Support: Built on SMB1 and SMB2 protocols for accessing files over the network.
+
+## logic
+![paint de qualité](https://github.com/user-attachments/assets/e7048216-4f00-4f71-8c23-7a9ee8056475)

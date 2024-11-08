@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SMBMediaHub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc583143b68dccfd6bcfb5df2d5df327369a60f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2836294d72277a86109cef2cf3512a5fd91aceb5")]
 [assembly: System.Reflection.AssemblyProductAttribute("SMBMediaHub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SMBMediaHub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

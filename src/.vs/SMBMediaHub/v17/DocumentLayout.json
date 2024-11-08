@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\sur\\OneDrive - Education Vaud\\Documents\\GitHub\\Josh-su\\SMBMediaHub\\src\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{5D1F1CCF-16FA-4FFC-BC47-714E0DE57CE0}|SMBMediaHub.csproj|c:\\users\\sur\\onedrive - education vaud\\documents\\github\\josh-su\\smbmediahub\\src\\settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D1F1CCF-16FA-4FFC-BC47-714E0DE57CE0}|SMBMediaHub.csproj|solutionrelative:settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D1F1CCF-16FA-4FFC-BC47-714E0DE57CE0}|SMBMediaHub.csproj|c:\\users\\sur\\onedrive - education vaud\\documents\\github\\josh-su\\smbmediahub\\src\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D1F1CCF-16FA-4FFC-BC47-714E0DE57CE0}|SMBMediaHub.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D1F1CCF-16FA-4FFC-BC47-714E0DE57CE0}|SMBMediaHub.csproj|c:\\users\\sur\\onedrive - education vaud\\documents\\github\\josh-su\\smbmediahub\\src\\smbfileloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D1F1CCF-16FA-4FFC-BC47-714E0DE57CE0}|SMBMediaHub.csproj|solutionrelative:smbfileloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,50 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SettingsWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\sur\\OneDrive - Education Vaud\\Documents\\GitHub\\Josh-su\\SMBMediaHub\\src\\SettingsWindow.xaml.cs",
-              "RelativeDocumentMoniker": "SettingsWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\sur\\OneDrive - Education Vaud\\Documents\\GitHub\\Josh-su\\SMBMediaHub\\src\\SettingsWindow.xaml.cs",
-              "RelativeToolTip": "SettingsWindow.xaml.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwEQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T09:52:07.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\sur\\OneDrive - Education Vaud\\Documents\\GitHub\\Josh-su\\SMBMediaHub\\src\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\sur\\OneDrive - Education Vaud\\Documents\\GitHub\\Josh-su\\SMBMediaHub\\src\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAIwFQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T09:36:34.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SMBFileLoader.cs",
-              "DocumentMoniker": "C:\\Users\\sur\\OneDrive - Education Vaud\\Documents\\GitHub\\Josh-su\\SMBMediaHub\\src\\SMBFileLoader.cs",
-              "RelativeDocumentMoniker": "SMBFileLoader.cs",
-              "ToolTip": "C:\\Users\\sur\\OneDrive - Education Vaud\\Documents\\GitHub\\Josh-su\\SMBMediaHub\\src\\SMBFileLoader.cs",
-              "RelativeToolTip": "SMBFileLoader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T08:58:53.755Z",
-              "EditorCaption": ""
             }
           ]
         }
